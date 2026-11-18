@@ -1,0 +1,29 @@
+{
+  "name": "lab_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T9-t/Lab_TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/T9-t/Lab_TypeScript/issues"
+  },
+  "homepage": "https://github.com/T9-t/Lab_TypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "undici-types": "^8.9.0"
+  }
+}
